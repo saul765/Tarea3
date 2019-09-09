@@ -28,111 +28,106 @@
                 android:text="1"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/one" app:layout_constraintStart_toStartOf="@+id/guideline12"
-                android:layout_marginStart="8dp"
-                app:layout_constraintEnd_toStartOf="@+id/guideline10" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.0"
+                android:id="@+id/one"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/four"
                 android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline13"
-                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline14"/>
+                app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintHorizontal_bias="1.0"/>
         <Button
                 android:text="2"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
                 android:id="@+id/two"
-                app:layout_constraintStart_toStartOf="@+id/guideline10"
-                android:layout_marginStart="32dp"
-                app:layout_constraintEnd_toStartOf="@+id/guideline9" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline13"
-                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline14"/>
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/five"
+                app:layout_constraintTop_toBottomOf="@+id/headText"
+                app:layout_constraintTop_toTopOf="@+id/guideline13"
+                android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintStart_toStartOf="@+id/guideline2" app:layout_constraintStart_toEndOf="@+id/one"
+        />
         <Button
                 android:text="3"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
                 android:id="@+id/three"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintStart_toStartOf="@+id/guideline9" android:layout_marginStart="8dp"
-                app:layout_constraintHorizontal_bias="0.517"
-                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline13"
-                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline14"/>
+                android:layout_marginEnd="48dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/six"
+                app:layout_constraintTop_toTopOf="@+id/guideline13"
+                app:layout_constraintStart_toStartOf="@+id/guideline3" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/two"/>
         <Button
                 android:text="4"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/four" app:layout_constraintStart_toStartOf="@+id/guideline12"
-                android:layout_marginStart="8dp"
-                app:layout_constraintEnd_toStartOf="@+id/guideline10" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/guideline15" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="@+id/guideline14"/>
+                android:id="@+id/four"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/seven" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/one" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="1.0"/>
         <Button
                 android:text="5"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
                 android:id="@+id/five"
-                app:layout_constraintStart_toStartOf="@+id/guideline10" android:layout_marginStart="32dp"
-                app:layout_constraintEnd_toStartOf="@+id/guideline9"
-                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline15"
-                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline14"/>
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/eight"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/two"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="@+id/guideline2"
+                android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/four"
+        />
         <Button
                 android:text="7"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/seven" app:layout_constraintStart_toStartOf="@+id/guideline12"
-                android:layout_marginStart="8dp"
-                app:layout_constraintEnd_toStartOf="@+id/eight" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="16dp"
-                app:layout_constraintBottom_toTopOf="@+id/guideline16" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="@+id/guideline15"/>
+                android:id="@+id/seven"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2" android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toTopOf="@+id/cButton" android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/four" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="1.0"/>
         <Button
                 android:text="8"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
                 android:id="@+id/eight"
-                app:layout_constraintStart_toStartOf="@+id/guideline10" android:layout_marginStart="32dp"
-                app:layout_constraintEnd_toStartOf="@+id/nine"
-                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.0"
-                android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/guideline16"
-                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline15"/>
-        <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content"
-                                                    android:id="@+id/guideline9"
-                                                    app:layout_constraintGuide_begin="187dp"
-                                                    android:orientation="vertical"/>
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/zero"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/five"
+                app:layout_constraintStart_toStartOf="@+id/guideline2" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/zero"/>
         <Button
                 android:text="6"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/six" app:layout_constraintStart_toStartOf="@+id/guideline9"
-                android:layout_marginStart="8dp"
+                android:id="@+id/six"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.517"
-                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/guideline15"
-                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline14"/>
-        <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content"
-                                                    android:id="@+id/guideline10"
-                                                    app:layout_constraintGuide_begin="119dp"
-                                                    android:orientation="vertical"/>
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/nine"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/three"
+                app:layout_constraintStart_toStartOf="@+id/guideline3" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/five"/>
         <Button
                 android:text="9"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/nine" app:layout_constraintStart_toStartOf="@+id/guideline9"
-                android:layout_marginStart="8dp"
+                android:id="@+id/nine"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.517"
-                android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/guideline16"
-                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/guideline15"/>
+                android:layout_marginEnd="48dp"
+                android:layout_marginBottom="16dp" app:layout_constraintBottom_toTopOf="@+id/erase"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/six"
+                app:layout_constraintStart_toStartOf="@+id/guideline3" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/eight"/>
         <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content"
                                                     android:id="@+id/guideline11"
                                                     android:orientation="horizontal"
-                                                    app:layout_constraintGuide_percent="0.75"/>
+                                                    app:layout_constraintGuide_percent="0.84"/>
         <Button
                 android:text="@string/call"
                 style="@style/AppTheme.callButton"
@@ -145,60 +140,50 @@
                 android:text="*"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/cButton" app:layout_constraintStart_toStartOf="@+id/guideline12"
-                android:layout_marginStart="8dp"
-                app:layout_constraintEnd_toStartOf="@+id/guideline10" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.111" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/guideline17" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="@+id/guideline16"/>
+                android:id="@+id/cButton"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/seven" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline11" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="1.0"/>
         <Button
                 android:text="0"
                 android:background="@drawable/round_button"
                 style="@style/AppTheme.roundButton"
-                android:id="@+id/zero" app:layout_constraintStart_toStartOf="@+id/guideline10"
-                android:layout_marginStart="32dp"
-                app:layout_constraintEnd_toStartOf="@+id/erase" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.0" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/guideline17" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="@+id/guideline16"/>
-        <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content" android:id="@+id/guideline12"
-                                                    app:layout_constraintGuide_begin="48dp"
-                                                    android:orientation="vertical"/>
+                android:id="@+id/zero"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3" android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/eight" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline11"
+                app:layout_constraintStart_toStartOf="@+id/guideline2" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toEndOf="@+id/cButton"/>
         <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
                                                     android:layout_height="wrap_content" android:id="@+id/guideline13"
                                                     android:orientation="horizontal"
                                                     app:layout_constraintGuide_percent="0.14"/>
         <ImageButton
                 android:text="Delete"
-                android:layout_width="62dp"
-                android:layout_height="46dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
                 android:id="@+id/erase"
 
                 android:background="@color/white_transparesnt"
                 android:src="@drawable/ic_backspace_black_24dp"
 
-                app:layout_constraintStart_toStartOf="@+id/guideline9" android:layout_marginStart="8dp"
-                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
-                app:layout_constraintHorizontal_bias="0.492" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toTopOf="@+id/guideline17" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="@+id/guideline16"/>
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="48dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/nine" app:layout_constraintBottom_toTopOf="@+id/guideline11"
+                android:layout_marginBottom="8dp" android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="@+id/guideline3" app:layout_constraintStart_toEndOf="@+id/zero"
+        />
         <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content" android:id="@+id/guideline14"
-                                                    app:layout_constraintGuide_begin="210dp"
-                                                    android:orientation="horizontal"/>
+                                                    android:layout_height="wrap_content" android:id="@+id/guideline2"
+                                                    android:orientation="vertical"
+                                                    app:layout_constraintGuide_percent="0.3649635"/>
         <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content" android:id="@+id/guideline15"
-                                                    app:layout_constraintGuide_begin="299dp"
-                                                    android:orientation="horizontal"/>
-        <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content" android:id="@+id/guideline16"
-                                                    app:layout_constraintGuide_begin="401dp"
-                                                    android:orientation="horizontal"/>
-        <androidx.constraintlayout.widget.Guideline android:layout_width="wrap_content"
-                                                    android:layout_height="wrap_content" android:id="@+id/guideline17"
-                                                    app:layout_constraintGuide_begin="506dp"
-                                                    android:orientation="horizontal"/>
+                                                    android:layout_height="wrap_content" android:id="@+id/guideline3"
+                                                    android:orientation="vertical"
+                                                    app:layout_constraintGuide_percent="0.65"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout android:layout_width="match_parent"
